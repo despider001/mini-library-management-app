@@ -1,0 +1,48 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript
+dist/      
+
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store    # Mac OS
+Thumbs.db    # Windows
+*.log        # Log files
+
+# TypeORM
+*.sqlite   
+
+# Logging
+logs/
+
+# dotenv environment files
+.env
+*.env.local
+*.env.*.local
+*.env.*.local.*
+
+# Other common directories to exclude
+coverage/   
+
+
+# Temp or cache
+*.log.tmp
+*.tmp
+*.temp
+*.cache
+
+# Others
+.DS_Store
+*.bak
+*.swp
+*~.nib
+local.properties
